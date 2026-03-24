@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Lock files (too large, rarely need AI context)
+package-lock.json
+
+# Git internals
+.git/
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+*.log

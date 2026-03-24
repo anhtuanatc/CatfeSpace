@@ -1,0 +1,77 @@
+.contact-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-container {
+    max-width: 600px;
+    /* Reduced width for single column */
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(145deg, rgba(30, 25, 20, 0.8), rgba(30, 25, 20, 0.4));
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 60px 40px;
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(20px);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.email-box {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.email-box:hover {
+    border-color: var(--primary);
+    background: rgba(224, 159, 125, 0.05);
+    transform: translateY(-5px);
+}
+
+.contact-label {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-value {
+    font-size: 1.5rem;
+    /* Larger font for email */
+    font-weight: 700;
+    color: var(--text-main);
+    text-decoration: none;
+    font-family: var(--font-heading);
+}
+
+.contact-value:hover {
+    color: var(--primary);
+}
+
+.copy-hint {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.support-text {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 400px;
+}
